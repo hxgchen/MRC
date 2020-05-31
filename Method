@@ -1,14 +1,14 @@
 public static int mod(int a, int b) {
 	if ((a < 0) && (b < 0)) {
-			return (-1) * (Math.abs(a) % Math.abs(b));
+		return (-1) * (Math.abs(a) % Math.abs(b));
 	}
 	else if (a < 0) {
-			return b - (Math.abs(a) % b);
+		return b - (Math.abs(a) % b);
 	}
 	else if (b < 0) {
-			return a % Math.abs(b) - b;
+		return a % Math.abs(b) - b;
 	}
 	else {
-			return a % b;
+		return a % b;
 	}
 }
